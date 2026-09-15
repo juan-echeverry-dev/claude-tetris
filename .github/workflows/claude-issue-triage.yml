@@ -78,6 +78,10 @@ jobs:
             CLAUDE.md en la raíz del repo para entender la arquitectura antes de
             analizar nada.
 
+            Todo lo que comentes debe estar en formato Markdown válido, que GitHub
+            pueda renderizar correctamente (encabezados, listas, bloques de código
+            con comillas invertidas, negritas, etc.).
+
             Issue a analizar: #${{ github.event.issue.number }} en el repositorio
             ${{ github.repository }}.
 
